@@ -1,0 +1,30 @@
+\begin{savequote}[75mm] 
+This is some random quote to start off the chapter.
+\qauthor{Firstname lastname} 
+\end{savequote}
+
+\chapter{Literature Review}
+\section{Biological Terminology}
+The fact that GA’s are derived from the concepts found in natural selection(Darwin), the terminology used to describe the various components of the GA are the same terminology that would be used to describe the various components of natural selection. Mitchell mentions that a genetic algorithm will start off by creating a randomly selected population of “Solution candidates” where these candidates represent a given solution in the search space of the problem that the GA is working on. Whitley () also mentions that these solutions can also be described as genotypes (Holland 1975) or chromosomes (Schaffer, 1987). These chromosomes are then generally made up of strings of ones and zeros or letters and can also be used according to Mitchell (), depending on how to best represent a solution.  These single bit values are termed bits or alleles as mentioned in Mitchell (). The GA needs to then work out which of the chromosomes are the best in the population or will return the best solution.  The equivalent of this in nature would be the survival of the fittest (Darwin).  In GA’s a fitness operator will derive the best chromosome.   Whitley also mentions two stochastic operators known as crossover and mutation.  As in nature probability has a significant impact on how the GA operates. There is some variability according to Mitchell on what should constitute a GA, but the basic concept of random selection of population fitness selection crossover and mutation are the basic building blocks of the GA.  Once a GA executes, the GA will execute for a number of pre-determined runs or generations (Goldberg) refers to this as a simple genetic algorithm. 
+
+\section{Standard Genetic Algorithm}
+The basic components of genetic algorithms as theorised by Holland according to (Mitchell, 2002) are as following. The genetic algorithm starts out with a population of candidate solutions and the size of the population is pre-determined to some given size.  The individual candidate solutions are known as chromosomes and these chromosomes are made up of bits or allies depending on what term the researcher uses. The fitness of each chromosome is then calculated based on how well a particular chromosome solves the problem at hand.  GA’s have some stochastic operators which are crossover and mutation. These operators have the ability to change the candidate solution and may increase or decrease the fitness value of each chromosome. The GA’s will continue to run and look at different candidate solution until some pre-determined value of number of runs or generations have completed.  For example if the GA ran for 50 generations then over those 50 generations the best solutions or chromosomes would have a higher probability of promotion in the population and the chromosomes with the poorer fitness values would disappear out the population over the generations following the idea of natural selection.  At this point the GA will produce a solution or multiple best solutions depending on the GA construction.
+\subsection{Initilise Population}
+\subsection{Fitness Function}
+\subsection{Selection Process}
+\subsection{CrossOver}
+\subsection{Mutation}
+\subsection{Elitism}
+\section{Micro Genetic Algorithm}
+\section{Diploid Genetic Algorithm}
+\section{Premature Convergence}
+\section{Detecting Premature Convergence}
+\subsection{Hamming Distance}
+\section{Diversity Methods}
+\subsection{Immigration Replace Random Individuals}
+\subsection{Immigration Replace Worst Individuals}
+\subsection{Elitism Immigrants Genetic Algorithm}
+\subsection{Random Offspring Generation Approach}
+The idea behind this approach as set out by (Neves, 1999) (Mahfoud, 1995) is that when two parents are randomly chosen for crossover.  The genes are checked for similarity. If both parents are genetically similar they are withdrawn from crossover and instead a new chromosome is randomly generated instead of one or both parents thus adding diversity back into the population.
+\subsection{Crowding}
+According to (Mitchell, 2002, p. 176) De Jong developed a standard crowding method (DeJong, 1975) that replaced the existing chromosomes in a population with similar chromosomes from new offspring or chromosomes created by the genetic algorithm.  Mahfoud research improved on this method and came up with the deterministic crowding method (Mahfoud, 1995) and what Mahfoud suggested was that competition between the existing population and genetically similar offspring or chromosomes should apply.  Both methods break down into two phases, the “Pairing Phase” as mentioned in (Severino F Galan, 2010) where an existing chromosome is paired with offspring or new chromosome.   A decision is then made as to which chromosome enters the population “Replacement Phase” this approach according to (Mitchell, 2002) seems to prevent too many chromosomes which are the same or “crowds” being in the population at the one time. This method according to (Mahfoud, 1995) would be regarded as a niching method. According to (Severino F Galan, 2010) the approaches to crowding are deterministic crowding (Mahfoud, 1995) probabilistic and simulated annealing.   
